@@ -4,23 +4,36 @@
   font-family: "Libre Franklin", "Helvetica", "sans-serif";
 }
 
-.searchblock{
+.mainblock{
   background-image: url("../images/hero-splash-roommates-fun.jpg");
   background-size: cover;
-  height: 500px;
+  height: 600px;
   padding: 0px;
   text-align: center;
 }
 
-.searchblock h1{
+.mainblock h1{
   color: white;
   font-weight: 400;
+  margin-bottom: 0px;
 }
 
-.searchblock p{
+.mainblock p{
   color: white;
   font-size: 16px;
   font-weight: 100;
+  margin-top: 8px;
+}
+
+.searchbar input{
+  padding: 8px 16px;
+  width: 300px;
+}
+
+.searchbar p{
+  background-color: #29BBAF;
+  display: inline-block;
+  padding: 8px 16px;
 }
 
 .columnscontainer{
@@ -35,6 +48,24 @@
 }
 
 .city-pic-column img{
-  padding: 8px 16px 8px 16px;
+  padding: 8px 16px;
   width: 100%;
+}
+
+.morecities p{
+  border: 1px solid orange;
+  border-radius: 8px;
+  color: orange;
+  padding: 16px;
+}
+
+.inforow{
+  display: inline-block;
+  font-size: medium;
+}
+
+.companycolumn, .mediacolumn,
+.directorycolumn{
+  display: inline-block;
+  width: 33.3333%;
 }
