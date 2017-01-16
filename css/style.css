@@ -56,16 +56,92 @@
   border: 1px solid orange;
   border-radius: 8px;
   color: orange;
+  margin-left: auto;
+  margin-right: auto;
   padding: 16px;
+  text-align: center;
+  width: 200px;
+}
+
+.exampleblurb{
+  background-color: lightgrey;
+}
+
+.examplebox, .example, .blurbinfo{
+  display: inline-block;
+}
+
+.examplebox{
+  margin-left: 200px;
+  width: 50%;
+}
+
+.example{
+  background-color: white;
+  border: 1px solid black;
+  margin: 32px;
+}
+
+.example img{
+  width: 300px;
+}
+
+.example h4{
+  font-size: 16px;
+    padding: 0px 0px 0px 16px;
+}
+
+.example p{
+  font-size: 16px;
+  line-height: 1;
+  margin: 8px 0px;
+  padding-left: 16px;
+}
+
+.blurbinfo{
+  font-size: 16px;
+  margin-left: -100px;
+  vertical-align: top;
+}
+
+.blurbinfo h2{
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.blurbinfo ul{
+  line-height: 1.75;
 }
 
 .inforow{
-  display: inline-block;
+  background-color: rgb(45,45,45);
   font-size: medium;
+  width: 100%;
+}
+
+.inforow h4{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inforow p{
+  color: lightgrey;
+  font-size: 12px;
+  font-weight: 100;
 }
 
 .companycolumn, .mediacolumn,
 .directorycolumn{
   display: inline-block;
   width: 33.3333%;
+}
+
+.socialmedia{
+  background-color: rgb(45,45,45);
+}
+
+.socialmedia img{
+  margin: 16px;
+  width: 50px;
 }
