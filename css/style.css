@@ -15,10 +15,24 @@
   width: 100px;
 }
 
-.navelements {display: inline-block;}
+.navelements {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  vertical-align: top;
+}
 
 .navelements p{
+  color: white;
   display: inline-block;
+  margin: 16px 16px;
+}
+
+.listbutton p{
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 8px 16px;
 }
 
 .mainblock{
@@ -177,4 +191,42 @@
 .socialmedia img{
   margin: 16px;
   width: 50px;
+}
+
+.chatbox{
+  background-color: white;
+  border-bottom: 8px solid #29BBAF;
+  border-top: 8px solid #29BBAF;
+  border-right: 8px solid #29BBAF;
+  bottom: 16px;
+  /*height: 175px;*/
+  left: 0;
+  position: fixed;
+  width: 25%;
+}
+
+.chatbox h4{
+  background-color: #B0E6E2;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 8px 16px;
+}
+
+.chatbox img{
+  display: inline-block;
+  margin: 16px;
+  vertical-align: middle;
+  width: 33%;
+}
+
+.chatbox p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.chatlink{
+  color: #F55E05;
 }
