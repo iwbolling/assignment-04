@@ -4,16 +4,33 @@
   font-family: "Libre Franklin", "Helvetica", "sans-serif";
 }
 
+.navbar{
+  background-color: #F55E05;
+  margin: auto;
+  width: 100%;
+}
+
+.navbar img{
+  width: 100px;
+}
+
+.navelements{
+  display: inline-block;
+  text-align: right;
+  width: 33%;
+}
+
 .mainblock{
   background-image: url("../images/hero-splash-roommates-fun.jpg");
   background-size: cover;
   height: 600px;
-  padding: 0px;
+  padding: 150px 0px;
   text-align: center;
 }
 
 .mainblock h1{
   color: white;
+  font-size: 36px;
   font-weight: 400;
   margin-bottom: 0px;
 }
@@ -43,14 +60,24 @@
 .city-pic-column{
   display: inline-block;
   font-size: medium;
+  padding: 8px 16px;
   vertical-align: top;
   width: 25%;
 }
 
 .city-pic-column img{
-  padding: 8px 16px;
+  margin: 0;
   width: 100%;
 }
+
+.city-pic-column p{
+  background-color: rgb(45,45,45);
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding: 8px;
+}
+
 
 .morecities p{
   border: 1px solid orange;
@@ -116,7 +143,16 @@
 .inforow{
   background-color: rgb(45,45,45);
   font-size: medium;
-  width: 100%;
+}
+
+.companycolumn, .mediacolumn,
+.directorycolumn{
+  display: inline-block;
+  font-size: medium;
+  margin: 0;
+  padding: 0px 0px 16px 16px;
+  vertical-align: top;
+  width: 33%;
 }
 
 .inforow h4{
@@ -131,14 +167,10 @@
   font-weight: 100;
 }
 
-.companycolumn, .mediacolumn,
-.directorycolumn{
-  display: inline-block;
-  width: 33.3333%;
-}
-
 .socialmedia{
   background-color: rgb(45,45,45);
+  border-top: 1px solid lightgrey;
+  text-align: right;
 }
 
 .socialmedia img{
