@@ -7,17 +7,18 @@
 .navbar{
   background-color: #F55E05;
   margin: auto;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .navbar img{
+  margin: 16px;
   width: 100px;
 }
 
-.navelements{
+.navelements {display: inline-block;}
+
+.navelements p{
   display: inline-block;
-  text-align: right;
-  width: 33%;
 }
 
 .mainblock{
