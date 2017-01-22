@@ -1,5 +1,7 @@
 *{box-sizing: border-box;}
 
+body{margin: 0;}
+
 #fullpage{
   font-family: "Libre Franklin", "Helvetica", "sans-serif";
 }
@@ -19,7 +21,7 @@
   display: inline-block;
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 2px;
   vertical-align: top;
 }
 
@@ -30,8 +32,9 @@
 }
 
 .listbutton p{
-  border: 1px solid white;
+  border: 1px solid #B0E6E2;
   border-radius: 2px;
+  color: #B0E6E2;
   padding: 8px 16px;
 }
 
@@ -57,15 +60,23 @@
   margin-top: 8px;
 }
 
+.searchbar{vertical-align: middle;}
+
 .searchbar input{
+  font-size: 24px;
+  display: inline-block;
   padding: 8px 16px;
+  height: 48px;
+  line-height: 24px;
   width: 300px;
 }
 
 .searchbar p{
   background-color: #29BBAF;
+  font-size: 16px;
   display: inline-block;
-  padding: 8px 16px;
+  margin-left: -4px;
+  padding: 16px 24px;
 }
 
 .columnscontainer{
@@ -202,7 +213,7 @@
   /*height: 175px;*/
   left: 0;
   position: fixed;
-  width: 25%;
+  width: 325px;
 }
 
 .chatbox h4{
@@ -224,6 +235,8 @@
 
 .chatbox p{
   display: inline-block;
+  margin-top: 0;
+  padding-left: 0px;
   vertical-align: middle;
 }
 
