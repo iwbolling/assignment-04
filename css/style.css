@@ -65,18 +65,22 @@ body{margin: 0;}
 .searchbar input{
   font-size: 24px;
   display: inline-block;
-  padding: 8px 16px;
   height: 48px;
-  line-height: 24px;
+  line-height: 48px;
   width: 300px;
+  vertical-align: top;
 }
 
 .searchbar p{
   background-color: #29BBAF;
   font-size: 16px;
   display: inline-block;
+  line-height: 48px;
+  margin: 0;
   margin-left: -4px;
-  padding: 16px 24px;
+  padding: 0px 12px;
+  height: 48px;
+  vertical-align: top;
 }
 
 .columnscontainer{
@@ -85,7 +89,6 @@ body{margin: 0;}
 
 .city-pic-column{
   display: inline-block;
-  font-size: medium;
   padding: 8px 16px;
   vertical-align: top;
   width: 25%;
@@ -120,13 +123,29 @@ body{margin: 0;}
   background-color: lightgrey;
 }
 
-.examplebox, .example, .blurbinfo{
+.examplebox, .hearticon, .example, .blurbinfo{
   display: inline-block;
 }
 
 .examplebox{
   margin-left: 200px;
   width: 50%;
+}
+
+.hearticon {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 24px;
+  bottom: 315px;
+  color: #FFFFFF;
+  display: block;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  left: 250px;
+  text-align: center;
+  width: 40px;
 }
 
 .example{
@@ -147,7 +166,7 @@ body{margin: 0;}
 .example p{
   font-size: 16px;
   line-height: 1;
-  margin: 8px 0px;
+  margin: 16px 0px;
   padding-left: 16px;
 }
 
@@ -169,6 +188,7 @@ body{margin: 0;}
 .inforow{
   background-color: rgb(45,45,45);
   font-size: medium;
+  height: 200px;
 }
 
 .companycolumn, .mediacolumn,
@@ -209,11 +229,10 @@ body{margin: 0;}
   border-bottom: 8px solid #29BBAF;
   border-top: 8px solid #29BBAF;
   border-right: 8px solid #29BBAF;
-  bottom: 16px;
-  /*height: 175px;*/
+  bottom: 0;
   left: 0;
   position: fixed;
-  width: 325px;
+  width: 300px;
 }
 
 .chatbox h4{
@@ -230,12 +249,13 @@ body{margin: 0;}
   display: inline-block;
   margin: 16px;
   vertical-align: middle;
-  width: 33%;
+  width: 25%;
 }
 
 .chatbox p{
   display: inline-block;
-  margin-top: 0;
+  font-size: 14px;
+  margin: 0;
   padding-left: 0px;
   vertical-align: middle;
 }
